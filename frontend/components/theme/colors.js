@@ -1,0 +1,11 @@
+const COLORS = {
+  BACKGROUND_LIGHT: '#F4F7FB',
+  BACKGROUND_DARK: '#2D4B46',
+  ACCENT_GOLD: '#FFB733',
+  TEXT_DARK: '#2C3E50',
+  TEXT_LIGHT: '#FFFFFF',
+  CARD_BG: '#FAFAFA',
+  SHADOW_COLOR: 'rgba(45, 75, 70, 0.15)',
+};
+
+export default COLORS;
