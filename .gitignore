@@ -7,21 +7,68 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-/generated/prisma
-
+# Environment variables
 .env
-node_modules
-dist
-dist-ssr
-*.local
+.env.local
+.env.*.local
 
-# Editor directories and files
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+dist-ssr/
+build/
+coverage/
+web-build/
+
+# Prisma generated files
+/generated/prisma
+backend/prisma/generated/
+
+# Expo (Frontend)
+.expo/
+expo-env.d.ts
+*.tsbuildinfo
+
+# Native (iOS/Android)
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.pem
+/ios/
+/android/
+
+# Metro bundler
+.metro-health-check*
+
+# IDE and Editor files
 .vscode/*
 !.vscode/extensions.json
-.idea
-.DS_Store
+.idea/
+*.swp
+*.swo
+*.swn
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# OS files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Data files
+data/
+
+# Testing
+coverage/
+.nyc_output/
